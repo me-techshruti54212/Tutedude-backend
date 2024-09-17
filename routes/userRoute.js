@@ -1,5 +1,4 @@
 const express=require("express")
-// const {loginUser,registerUser,getallUsers,sendfriendRequest,acceptfriendRequest,rejectfriendRequest,recommendations, unfriend,getFriendsList,getFriendRequests}=require("../controllers/userController")
 const { userModel } = require("../models/userModel");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
